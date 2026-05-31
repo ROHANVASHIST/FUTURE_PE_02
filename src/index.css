@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 
-:root[data-theme="light"] {
-  --color-slate-950: var(--color-slate-50);
-  --color-slate-900: var(--color-slate-100);
-  --color-slate-800: var(--color-slate-200);
-  --color-slate-700: var(--color-slate-300);
-  
-  --color-slate-200: var(--color-slate-950);
-  --color-slate-300: var(--color-slate-900);
-  --color-slate-400: var(--color-slate-800);
-  --color-slate-500: var(--color-slate-700);
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
+
+:root[data-theme="light"] {
+  /* High contrast solid color definitions to prevent cascading variable loops in light mode */
+  --color-slate-950: #f8fafc; /* Canvas background / outer layout wrapper */
+  --color-slate-900: #ffffff; /* Card backgrounds, headers, side info panels */
+  --color-slate-800: #e2e8f0; /* Standard borders & separators */
+  --color-slate-700: #cbd5e1; /* Secondary custom fields & interactive borders */
+  
+  --color-slate-200: #0f172a; /* Dominant readable body typography */
+  --color-slate-300: #1e293b; /* Inputs content & bold values font colors */
+  --color-slate-400: #334155; /* Secondary captions and secondary info labels */
+  --color-slate-500: #475569; /* Small subtext & mono-caption colors */
+}
+
+/* Custom scrollbar and premium glowing accents */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-slate-950);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-800);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Selection color override */
+::selection {
+  background-color: rgba(37, 99, 235, 0.2);
+  color: inherit;
+}
+
