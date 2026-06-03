@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "UGC Studio Forge",
+  "description": "A high-end platform for generating high-converting UGC ad hooks, scripts, and content packs using AI-driven copywriting frameworks.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -61,37 +61,4 @@ Our UI/UX utilizes a customized **Slate Slate Theme** designed with extreme nega
     ```bash
     npm run dev
     ```
-
-
-<img width="1909" height="867" alt="Screenshot 2026-05-31 061514" src="https://github.com/user-attachments/assets/706ca064-e906-45c4-a9f0-1bb98001e5bc" />
-<img width="969" height="776" alt="Screenshot 2026-05-31 061703" src="https://github.com/user-attachments/assets/47c7b690-95fb-42fc-868f-4203bc1091f1" />
-<img width="927" height="826" alt="Screenshot 2026-05-31 062050" src="https://github.com/user-attachments/assets/afb47817-d5f3-4fc9-b4fb-06b520cb0a91" />
-<img width="925" height="811" alt="Screenshot 2026-05-31 062106" src="https://github.com/user-attachments/assets/5bde9fd7-7caa-4b64-b46b-83791793165a" />
-<img width="904" height="774" alt="Screenshot 2026-05-31 062115" src="https://github.com/user-attachments/assets/ee7161a3-189a-4594-99d0-350f00ee670a" />
-<img width="905" height="811" alt="Screenshot 2026-05-31 062125" src="https://github.com/user-attachments/assets/e261bf5f-90bb-49dc-943a-ec2350c23c51" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     Open [http://localhost:3000](http://localhost:3000) to access the UGC Ad Studio.
